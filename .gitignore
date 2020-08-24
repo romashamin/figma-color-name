@@ -1,0 +1,8 @@
+node_modules
+dist
+hidden
+tmp
+.DS_Store
+.config
+*.log
+*.swp

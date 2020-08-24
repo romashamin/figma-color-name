@@ -1,0 +1,120 @@
+:root {
+  /* Colors */
+  --color-local-black: #333333;
+  --color-gray-light: #b3b3b3;
+  --color-gray-extralight: #e5e5e5;
+  /* Font Sizes */
+  --font-size-4m: 11.2px;
+  /* Spacings */
+  --space-unit: 2px;
+  --space-2m: calc(2 * var(--space-unit));
+  --space-4m: calc(4 * var(--space-unit));
+  --space-6m: calc(6 * var(--space-unit));
+  --space-7m: calc(7 * var(--space-unit));
+  --space-8m: calc(8 * var(--space-unit));
+  /* Sizes */
+  --border-radius: calc(3 * var(--space-unit));
+  --color-sample-height: 40px;
+  --requested-sample-width: 54px;
+}
+html,
+body,
+.container,
+.colors-list,
+.color-item {
+  margin: 0;
+  padding: 0;
+  color: var(--color-local-black);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: var(--font-size-4m);
+  line-height: var(--space-7m);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.container {
+  display: grid;
+  min-height: 60px;
+}
+
+.no-selection {
+  justify-self: center;
+  align-self: center;
+  margin: 0 var(--space-8m);
+  text-align: center;
+  color: var(--color-gray-light);
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.logo-link {
+  display: block;
+  margin: 0 auto;
+  width: 48px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.logo-image {
+  position: relative;
+  bottom: -7px;
+  transition: all 0.1s ease-out;
+}
+
+.logo-link:hover .logo-image {
+  bottom: -4px;
+}
+
+.color-item {
+  padding: var(--space-4m) var(--space-8m);
+  list-style: none;
+  border-bottom: 1px solid var(--color-gray-extralight);
+}
+
+.color-item:last-of-type {
+  border: none;
+  margin-bottom: var(--space-4m);
+}
+
+.color-sample {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr minmax(50px, auto);
+  grid-column-gap: var(--space-2m);
+}
+
+.color-sample:first-of-type {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.color-sample:last-of-type {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.color-sample-selected {
+  padding: var(--space-8m) var(--space-4m);
+}
+
+.color-sample-closest {
+  padding: var(--space-2m) var(--space-4m);
+}
+
+.text-bold .color-sample-name {
+  font-weight: bold;
+}
+
+.color-sample-hex {
+  opacity: 0.6;
+  text-align: right;
+}
