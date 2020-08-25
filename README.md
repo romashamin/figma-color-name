@@ -2,7 +2,11 @@
 
 <img width="64" height="64" src="images/icon.png" title="Color Name Icon">
 
-Color Name is a Figma plugin that helps answer the “How should I name this color?” question.
+Figma plugin that answers the question “How should I name this color?” once and for all.
+
+Select any node with solid fill and see the name of the color or the list of color names closest to it.
+
+This plugin searches through HTML color names and “Name that Color” list and computes the Euclidean distance to find colors that are closest to selected.
 
 ### System Requirements
 
