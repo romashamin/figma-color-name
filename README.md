@@ -1,5 +1,7 @@
 # Color Name
 
+<img width="64" height="64" src="images/icon.png" title="Color Name Icon">
+
 Color Name is a Figma plugin that helps answer the “How should I name this color?” question.
 
 ### System Requirements
