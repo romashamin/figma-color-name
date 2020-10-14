@@ -1,4 +1,4 @@
-# Color Name
+# Color Name ![installs](https://img.shields.io/endpoint?url=https://yuanqing.github.io/figma-plugins-stats/plugin/880101729425135325/installs.json) ![likes](https://img.shields.io/endpoint?url=https://yuanqing.github.io/figma-plugins-stats/plugin/880101729425135325/likes.json)
 
 <img width="64" height="64" src="images/icon.png" title="Color Name Icon">
 
