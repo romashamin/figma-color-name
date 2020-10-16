@@ -8,6 +8,12 @@ Select any node with solid fill and see the name of the color or the list of col
 
 This plugin searches through HTML color names and “Name that Color” list and computes the Euclidean distance to find colors that are closest to selected.
 
+### Install
+
+[Install Color Name] from the Figma Community.
+
+[install color name]: https://www.figma.com/community/plugin/880101729425135325/Color-Name
+
 ### System Requirements
 
 Color Name has been tested on Figma Desktop App release 86 on macOS Catalina. If you have any problems, drop me a line: [@romanshamin].
